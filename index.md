@@ -5,6 +5,7 @@ tagline:
 ---
 {% include JB/setup %}
 <article class="post type-post status-publish format-gallery hentry category-uncategorized grid_6 cf">
+	<h2>Agenda</h2>
 	<div class="hack-agenda-area">
 
 	</div>
