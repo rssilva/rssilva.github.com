@@ -28,7 +28,7 @@ var Page = function () {
 	}
 }
 
-$(document).ready(function () {
+jQuery(document).ready(function () {
 	var page = new Page();
 	page.init();
 });
