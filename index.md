@@ -4,7 +4,7 @@ title:
 tagline: 
 ---
 {% include JB/setup %}
-<article>
+<article class="post type-post status-publish format-gallery hentry category-uncategorized grid_6 cf">
 	<p>
 		O Hack Thursday é um encontro de profissionais e entusiastas de tecnologia tendo como objetivo principal o compartilhamento de conhecimento. 
 		Toda semana nos reunimos para debater algum tema (linguagem, framework, algoritmo, etc. ou tudo isso de uma vez só) em forma de palestra (na maioria das vezes até agora), dojo, interações e outros formatos.
