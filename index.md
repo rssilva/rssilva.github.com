@@ -14,6 +14,7 @@ tagline: Hack Thursday
 	</p>	
 	<p>
 		Primamos por quebrar a "barreira" entre palestrante e platéia acabando com o conceito de apresentação mais formal!
+	</p>
 	<p>	
 		Apareça para conhecer o evento, não fazemos distinção de nível de conhecimento, experiência, área ou empresa. 
 	</p>	
