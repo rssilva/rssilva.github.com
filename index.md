@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hack Thursday
-tagline: Hack Thursday
+title: 
+tagline: 
 ---
 {% include JB/setup %}
 
