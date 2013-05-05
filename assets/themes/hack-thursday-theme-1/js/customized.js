@@ -9,7 +9,7 @@ var Page = function () {
 		},
 
 		getAgenda: function () {
-			$.ajax({
+			jQuery.ajax({
 		        type: 'GET',
 		        url: '/calendar-proposal.md',
 		        dataType: 'text',   
