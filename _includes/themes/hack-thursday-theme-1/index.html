@@ -31,51 +31,51 @@
 
 	<body class="home blog">
 		<div id="page" class="hfeed site">
-		<!-- <a href="{{ HOME_PATH }}">{{ site.title }}</a>
-
-				<a class="extra" href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a>
-				<a class="extra" href="{{ BASE_PATH }}{{ site.JB.pages_path }}">Pages</a>
-				<a class="extra" href="{{ BASE_PATH }}{{ site.JB.categories_path }}">Categories</a>
-				<a class="extra" href="{{ BASE_PATH }}{{ site.JB.tags_path }}">Tags</a> -->
-		<header id="masthead" class="site-header" role="banner">
-			<div id="botmenu">
-				<div class="container_6">
-					<div id="submenu" class="menu-primary-container">
-						<ul id="web2feel" class="sfmenu">
-							<li id="menu-item-55" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-55">
-								<a href="http://demo.fabthemes.com/winter">Home</a>
-							</li>
-							<li id="menu-item-54" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-54">
-								<a href="http://demo.fabthemes.com/winter/sample-page/">Sample Page</a>
-								<ul class="sub-menu">
-									<li id="menu-item-63" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63"><a href="http://demo.fabthemes.com/winter/sample-page/sub-page/">Sub page</a></li>
-									<li id="menu-item-62" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62"><a href="http://demo.fabthemes.com/winter/sample-page/sub-page-2/">Sub page 2</a></li>
-								</ul>
-							</li>
-							<li id="menu-item-56" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-56">
-								<a href="http://demo.fabthemes.com/winter/category/videos/">Videos</a>
-							</li>
-						</ul>
-					</div>			
+			<header id="masthead" class="site-header" role="banner">
+				<div id="botmenu">
+					<div class="container_6">
+						<div id="submenu" class="menu-primary-container">
+							<ul id="web2feel" class="sfmenu">
+								<li id="menu-item-55" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-55">
+									<a href="{{ HOME_PATH }}">Home</a>
+								</li>
+								<li id="menu-item-54" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-54">
+									<a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Arquivo</a>
+									<!-- <ul class="sub-menu">
+										<li id="menu-item-63" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63"><a href="http://demo.fabthemes.com/winter/sample-page/sub-page/">Sub page</a></li>
+										<li id="menu-item-62" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62"><a href="http://demo.fabthemes.com/winter/sample-page/sub-page-2/">Sub page 2</a></li>
+									</ul> -->
+								</li>
+								<li id="menu-item-56" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-56">
+									<a href="{{ BASE_PATH }}{{ site.JB.pages_path }}">Páginas</a>
+								</li>
+								<li id="menu-item-57" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-56">
+									<a href="{{ BASE_PATH }}{{ site.JB.categories_path }}">Categorias</a>
+								</li>
+								<li id="menu-item-57" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-56">
+									<a class="extra" href="{{ BASE_PATH }}{{ site.JB.tags_path }}">Tags</a>
+								</li>
+							</ul>
+						</div>			
+					</div>
 				</div>
-			</div>
 
-			<div class="top cf ">
-				<div class="head container_6 cf">
-					<div class="logo grid_3">
-						<h1 class="site-title"><a href="http://demo.fabthemes.com/winter/" title="Winter" rel="home">Winter</a></h1>
-						<h2 class="site-description">Just another demo Sites site</h2>
-					</div>
-					<div class="topbar grid_3">
-						<form method="get" id="searchform" action="http://demo.fabthemes.com/winter/" role="search">
-							<label for="s" class="assistive-text">Search</label>
-							<input type="text" class="field" name="s" value="" id="s" placeholder="Search &hellip;" />
-							<input type="submit" class="submit" name="submit" id="searchsubmit" value="Search" />
-						</form>
-					</div>
-				</div>	
-			</div>
-		</header><!-- #masthead .site-header -->
+				<div class="top cf ">
+					<div class="head container_6 cf">
+						<div class="logo grid_3">
+							<h1 class="site-title"><a href="http://demo.fabthemes.com/winter/" title="Winter" rel="home">Winter</a></h1>
+							<h2 class="site-description">Just another demo Sites site</h2>
+						</div>
+						<div class="topbar grid_3">
+							<form method="get" id="searchform" action="http://demo.fabthemes.com/winter/" role="search">
+								<label for="s" class="assistive-text">Search</label>
+								<input type="text" class="field" name="s" value="" id="s" placeholder="Search &hellip;" />
+								<input type="submit" class="submit" name="submit" id="searchsubmit" value="Search" />
+							</form>
+						</div>
+					</div>	
+				</div>
+			</header><!-- #masthead .site-header -->
 
 			<div id="main" class="site-main container_6">
 				<div id="primary" class="content-area ">
