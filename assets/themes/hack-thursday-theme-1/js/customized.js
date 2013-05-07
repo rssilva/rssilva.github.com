@@ -55,7 +55,7 @@ var Page = function () {
 
 				if (literal && literal[0]) {
 					if (url && url[0]) {
-						return str.replace(link[0], '<a href="' + url[0].replace(')', '') + '">' + literal + '</a>');
+						return str.replace(link[0], '<a href="' + url[0].replace(')', '') + '">' + literal[0].replace(/(\[|\])/g, '') + '</a>');
 					}
 				}
 
